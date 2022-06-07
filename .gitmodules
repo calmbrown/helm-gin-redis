@@ -1,0 +1,6 @@
+[submodule "gin-web"]
+	path = gin-web
+	url = https://github.com/calmbrown/gin-web.git
+[submodule "terraform-eks"]
+	path = terraform-eks
+	url = https://github.com/calmbrown/terraform-eks.git
