@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-
 ├── README.md  
 ├── deploy.sh # 위 Dockerfile 빌드,배포 스크립트 # 웹 어플리케이션을 구현한 차트이며, Redis 를 서브 차트로 갖고있다.  
 ├── gin-web  
-│   ├── README.md  
+ │   ├── README.md  
 │   ├── db  
 │   ├── go.mod  
 │   ├── go.sum  
