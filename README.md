@@ -24,8 +24,7 @@ https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-
 
 리포지토리 구성
 
-'''bash
-
+```bash
 .  
 ├── Dockerfile # 베이스 도커파일  
 ├── README.md  
@@ -51,5 +50,4 @@ https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-
 ├── variables.tf  
 ├── vpc.tf  
 └── workstation-external-ip.tf
-
-'''
+```
