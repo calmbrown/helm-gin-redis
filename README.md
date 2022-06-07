@@ -1,6 +1,6 @@
 # helm-gin-redis
 
-기술 스택
+## 기술 스택
 - Helm
 - Kubernetes ( AWS EKS )
 - Terraform
@@ -8,7 +8,7 @@
 - Gin framework
 - Redis
 
-내용
+## 내용
 - Terraform 으로 AWS에 EKS 인프라 구축
 - Helm 으로 EKS 리소스 배포 ( pod, ingress, service, hpa 등 구현 )
   - AWS 의 Route53, NLB, ACM 연계
@@ -24,8 +24,9 @@ https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-
 
 
 
-
-helm-gin-redis 리포지토리 구성
+  
+  
+ ## helm-gin-redis 리포지토리 구성
 
 ```bash
 .  
