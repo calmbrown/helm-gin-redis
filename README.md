@@ -47,11 +47,11 @@ https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-
 │   ├── templates  
 │   └── values.yaml  
 └── terraform-eks  
-├── eks-cluster.tf  
-├── eks-worker-nodes.tf  
-├── outputs.tf  
-├── providers.tf  
-├── variables.tf  
-├── vpc.tf  
-└── workstation-external-ip.tf
+    ├── eks-cluster.tf  
+    ├── eks-worker-nodes.tf  
+    ├── outputs.tf  
+    ├── providers.tf  
+    ├── variables.tf  
+    ├── vpc.tf  
+    └── workstation-external-ip.tf
 ```
