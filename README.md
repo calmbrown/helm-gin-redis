@@ -26,26 +26,26 @@ https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-
 
 .  
 ├── Dockerfile # 베이스 도커파일  
-├── README.md
-├── deploy.sh # 위 Dockerfile 빌드,배포 스크립트 # 웹 어플리케이션을 구현한 차트이며, Redis 를 서브 차트로 갖고있다.
-├── gin-web
-│   ├── README.md
-│   ├── db
-│   ├── go.mod
-│   ├── go.sum
-│   ├── main.go
-│   └── templates
-├── go-k8s # Helm Chart, 웹 어플리케이션을 구현한 차트이며 Redis 를 서브 차트로 갖고있다 ( 서브차트 경로 : ./charts/redis-16.10.1 )
-│   ├── Chart.lock
-│   ├── Chart.yaml
-│   ├── charts
-│   ├── templates
-│   └── values.yaml
-└── terraform-eks
-    ├── eks-cluster.tf
-    ├── eks-worker-nodes.tf
-    ├── outputs.tf
-    ├── providers.tf
-    ├── variables.tf
-    ├── vpc.tf
-    └── workstation-external-ip.tf
+├── README.md  
+├── deploy.sh # 위 Dockerfile 빌드,배포 스크립트 # 웹 어플리케이션을 구현한 차트이며, Redis 를 서브 차트로 갖고있다.  
+├── gin-web  
+│   ├── README.md  
+│   ├── db  
+│   ├── go.mod  
+│   ├── go.sum  
+│   ├── main.go  
+│   └── templates  
+├── go-k8s # Helm Chart, 웹 어플리케이션을 구현한 차트이며 Redis 를 서브 차트로 갖고있다 ( 서브차트 경로 : ./charts/redis-16.10.1 )  
+│   ├── Chart.lock  
+│   ├── Chart.yaml  
+│   ├── charts  
+│   ├── templates  
+│   └── values.yaml  
+└── terraform-eks  
+├── eks-cluster.tf  
+├── eks-worker-nodes.tf  
+├── outputs.tf  
+├── providers.tf  
+├── variables.tf  
+├── vpc.tf  
+└── workstation-external-ip.tf
