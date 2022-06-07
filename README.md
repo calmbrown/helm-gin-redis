@@ -17,7 +17,7 @@
   <img width="356" alt="image" src="https://user-images.githubusercontent.com/43468563/172343206-d961cfef-49c6-4442-b0cf-e819b7a7b643.png">
 
 
-HPA(Horizontal Pod Autoscaler) 시현 영상
+## HPA(Horizontal Pod Autoscaler) 시현 영상
 
 https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-a7bf-ba99e19cd1d3.mp4
 
