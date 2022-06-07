@@ -22,14 +22,17 @@ HPA(Horizontal Pod Autoscaler) 시현 영상
 https://user-images.githubusercontent.com/43468563/172282846-2289df36-9392-4b91-a7bf-ba99e19cd1d3.mp4
 
 
-리포지토리 구성
+
+
+
+helm-gin-redis 리포지토리 구성
 
 ```bash
 .  
 ├── Dockerfile # 베이스 도커파일  
 ├── README.md  
-├── deploy.sh # 위 Dockerfile 빌드,배포 스크립트 # 웹 어플리케이션을 구현한 차트이며, Redis 를 서브 차트로 갖고있다.  
-├── gin-web  
+├── deploy.sh # 위 Dockerfile 빌드,배포 스크립트 # 웹 어플리케이션을 구현한 차트이며, Redis 를 서브 차트로 갖고있다
+├── gin-web
 │   ├── README.md  
 │   ├── db  
 │   ├── go.mod  
